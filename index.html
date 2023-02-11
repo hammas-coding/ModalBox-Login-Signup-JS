@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Hun<span>Ter</span></h1>
+        <h3>Welcome To <span>My Page</span></h3>
+        <div class="buttons">
+            <button class="login">Login</button>
+            <button class="signup">SignUp</button>
+        </div>
+    </nav>
+    <div class="modal-background">
+        <div class="login-modal">
+            <h2>Login</h2>
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Password">
+            <div class="confirm">
+                <input type="checkbox" name="checkbox" class="cb">
+                <label for="checkbox">Remember Password</label>
+            </div>
+            <button type="submit">Login</button>
+            <p>Or Login With</p>
+            <div class="fontawesome">
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <i class="close-mark fa-solid fa-xmark"></i>
+        </div>
+    </div>
+    <!-- Signup  -->
+    <div class="modal-background-second">
+        <div class="signup-modal">
+            <h2>SignUp</h2>
+            <input type="text" name="name" placeholder="Enter Name">
+            <input type="email" name="email" placeholder="Enter Email">
+            <input type="password" name="password" placeholder="Create Password">
+            <div class="confirm">
+                <input type="checkbox" name="checkbox" class="cb">
+                <label for="checkbox">I accept terms and conditions</label>
+            </div>
+            <button type="submit">Signup</button>
+            <p>Or Signup With</p>
+            <div class="fontawesome">
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <i class="second-close-mark fa-solid fa-xmark"></i>
+        </div>
+    </div>
+</body>
+<script src="/app.js"></script>
+
+</html>
